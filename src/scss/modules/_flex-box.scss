@@ -1,0 +1,30 @@
+.box {
+  background-color: #42a5f5;
+  padding: 20px;
+  border: 1px #0d47a1 solid;
+}
+
+.flex-box-1 {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  padding-top: 50px;
+}
+
+.flex-box-2 {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-end;
+  padding-top: 50px;
+}
+
+.flex-box-3 {
+  display: flex;
+  flex-flow: row wrap;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.flex-box-3 .box {
+  width: 25%;
+}
