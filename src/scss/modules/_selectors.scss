@@ -1,3 +1,29 @@
 .selectors {
   padding-left: 100px;
+  font-family: "open sans";
+}
+
+.selectors h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.selectors h3 {
+  font-size: 24px;
+  color: #748cab;
+}
+
+.selectors p {
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.selectors .article .highlight {
+  color: #f44336;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.selectors .highlight {
+  font-weight: 700;
 }
